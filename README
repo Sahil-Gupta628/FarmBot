@@ -1,0 +1,46 @@
+==============================
+         FarmBot Setup
+==============================
+
+📁 PROJECT STRUCTURE:
+- frontend/
+- backend/
+- env/ (Python virtual environment)
+
+-------------------------------------
+1. ACTIVATE PYTHON VIRTUAL ENVIRONMENT
+-------------------------------------
+
+Windows:
+> env\Scripts\activate
+
+-------------------------------------
+2. FRONTEND SETUP (TERMINAL 1)
+-------------------------------------
+
+> cd frontend
+> npm install
+> npm run build
+> npm run dev
+
+-------------------------------------
+3. BACKEND SETUP (TERMINAL 2)
+-------------------------------------
+
+> cd backend
+> pip install flask flask-socketio speechrecognition deep-translator
+> python chat.py
+
+NOTE:
+- If you're using NLTK, ensure the 'punkt' tokenizer is downloaded:
+    >>> import nltk
+    >>> nltk.download('punkt')
+
+-------------------------------------
+📌 NOTES:
+-------------------------------------
+
+- Ensure both frontend and backend are running in separate terminals.
+- The virtual environment ensures package isolation.
+- You can deactivate the environment anytime with:
+    > deactivate
