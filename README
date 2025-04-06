@@ -1,27 +1,27 @@
 ==============================
-         FarmBot Setup
+ # 🌾 FarmBot Setup
 ==============================
 
-📁 PROJECT STRUCTURE:
+## 📁 Project Structure
 - frontend/
 - backend/
 - env/ (Python virtual environment)
 
 -------------------------------------
-1. ACTIVATE PYTHON VIRTUAL ENVIRONMENT
+## 1. ACTIVATE PYTHON VIRTUAL ENVIRONMENT
 -------------------------------------
 
-Windows:
-> env\Scripts\activate
+### Windows:
+- > env\Scripts\activate
 
 -------------------------------------
-2. FRONTEND SETUP (TERMINAL 1)
+## 2. FRONTEND SETUP (TERMINAL 1)
 -------------------------------------
 
-> cd frontend
-> npm install
-> npm run build
-> npm run dev
+- > cd frontend
+- > npm install
+- > npm run build
+- > npm run dev
 
 -------------------------------------
 3. BACKEND SETUP (TERMINAL 2)
